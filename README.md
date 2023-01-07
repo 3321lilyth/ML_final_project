@@ -17,7 +17,7 @@ This is a competition on kaggle (https://www.kaggle.com/competitions/tabular-pla
 4. update the dataset path on your own or follow the directory tree bellow
 5. run train.ipynb first to train your own model, after training, please **restart and change saved model path first**, then run inference.ipynb to predict. (more about this below!!)
 
-### preventing 'list' object is not callable
+### Peventing 'list' object is not callable
 For more clear code, I change data type of 'all_attribute' while rin time, **so please do 'restart' before every 'run all'**
 
 ### How autogluon save its model?
@@ -25,7 +25,7 @@ For more clear code, I change data type of 'all_attribute' while rin time, **so 
 - Every time you call this function it will generate a dir name like 'ag-20230107_133316' in dir 'AutogluonModels' , it means every predictor.fit() will generate a new dir for this model.  
 - That's the reason why you should change the saved model path in inference.ipynb after every training, you will find predictor.save() output something like "TabularPredictor saved. To load, use: predictor = TabularPredictor.load("AutogluonModels/ag-20230107_133316/")",just copy this line and replace in inference.ipynb
 
-### directory tree
+### Directory tree
 - your project dir
   - AutogluonModels (saved model)
     - ag-20230107_133316 
