@@ -27,14 +27,14 @@ For more clear code, I change data type of 'all_attribute' while rin time, **so 
 
 ### Directory tree
 - your project dir
-  - AutogluonModels (saved model)
+  - AutogluonModels 
     - ag-20230107_133316 
     - ... (some similar dir name)
   - train.ipynb
   - inference.ipynb
-  - tabular-playground-series-aug-2022 (dataset you download from kaggle)
-  - kuma_utils (Package you git clone from github link above, I'll do this in my code.)
-  - submission.csv (after you run inference.ipynb, the predict result will save in this file)
+  - tabular-playground-series-aug-2022
+  - kuma_utils 
+  - submission.csv
   
 ## Result
 1. got 0.59175 on private dateset in the competition (the 1st place while competition got 0.59128)
