@@ -13,9 +13,12 @@ This is a competition on kaggle (https://www.kaggle.com/competitions/tabular-pla
 0. check the environment (I wrote git clone 'kuma_utils' and pip install autogluon.tabular for you in my code)
 1. download dataset from competition here : https://www.kaggle.com/competitions/tabular-playground-series-aug-2022/data . 
 2. git clone my code
-3. download my saved model here : https://drive.google.com/drive/folders/18dfo1v3agAFcpg-Iq6gciRTgxe1C1hJu?usp=share_link, put my saved model to correct path 
-4. update the dataset path on your own or follow the directory tree bellow
-5. run train.ipynb first to train your own model, after training, please **restart and change saved model path first**, then run inference.ipynb to predict. (more about this below!!)
+3. download the pretrained model here : https://drive.google.com/drive/folders/18dfo1v3agAFcpg-Iq6gciRTgxe1C1hJu?usp=share_link, put my saved model to correct path 
+4. update the dataset path on your own or follow the directory tree below
+5. run inference.ipynb to predict, will generate a submission.csv file
+6. make submission on kaggle
+
+If you want to train by your self : run train.ipynb first to train, after training, please **restart and change saved model path first**, then run inference.ipynb to predict. (more about this below!!)
 
 ### Peventing 'list' object is not callable
 For more clear code, I change data type of 'all_attribute' while rin time, **so please do 'restart' before every 'run all'**
