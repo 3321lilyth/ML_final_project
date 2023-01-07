@@ -38,7 +38,7 @@ For more clear code, I change data type of 'all_attribute' while rin time, **so 
   
 ## Result
 1. got 0.59175 on private dateset in the competition (the 1st place while competition got 0.59128)
-![image](https://user-images.githubusercontent.com/71379735/211153590-1f3c56a8-703e-458c-a4bb-14101dbec9c8.png)
+![image](https://user-images.githubusercontent.com/71379735/211155420-c9d29667-f4be-4362-86e3-f26b3c051e4d.png)
 2. you can find my saved model here : https://drive.google.com/drive/folders/18dfo1v3agAFcpg-Iq6gciRTgxe1C1hJu?usp=share_link  
 
 ## Reference
